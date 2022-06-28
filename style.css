@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.gridCol{
+        border: 1px solid black;
+        height : 1px;
+        width: 1px;
+}
