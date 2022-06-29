@@ -1,12 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: azure;
+    background-color: darkslategrey;
+}
+.mainElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #container{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid azure;
+    height : 768px;
+    width : 768px;
 
 }
 
+.gridRow{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
 .gridCol{
-        border: 1px solid black;
-        height : 1px;
-        width: 1px;
+
+    display: flex;
+    flex: 1 1 0;
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
 }
